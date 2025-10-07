@@ -16,25 +16,24 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
   <!-- Top menubar -->
   <nav class="navbar bg-light border-bottom">
     <div class="container d-flex align-items-center">
       <!-- Left social icons -->
       <ul class="nav">
-        <li class="nav-item p-1"><a class="nav-link p-0" href="#"><i class="bi bi-facebook"></i></a></li>
-        <li class="nav-item p-1"><a class="nav-link p-0" href="#"><i class="bi bi-twitter-x"></i></a></li>
-        <li class="nav-item p-1"><a class="nav-link p-0" href="#"><i class="bi bi-pinterest"></i></a></li>
-        <li class="nav-item p-1"><a class="nav-link p-0" href="#"><i class="bi bi-instagram"></i></a></li>
+        <li class="nav-item p-1"><a class="nav-link p-0" href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a></li>
+        <li class="nav-item p-1"><a class="nav-link p-0" href="#" aria-label="X"><i class="bi bi-twitter-x"></i></a></li>
+        <li class="nav-item p-1"><a class="nav-link p-0" href="#" aria-label="Pinterest"><i class="bi bi-pinterest"></i></a></li>
+        <li class="nav-item p-1"><a class="nav-link p-0" href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a></li>
       </ul>
 
       <!-- Right utility icons + My Cart -->
       <ul class="nav ms-auto">
-        <li class="nav-item p-1"><a class="nav-link p-0" href="#account"><i class="bi bi-person"></i></a></li>
-        <li class="nav-item p-1"><a class="nav-link p-0" href="#search"><i class="bi bi-search"></i></a></li>
-        <li class="nav-item p-1"><a class="nav-link p-0" href="#wishlist"><i class="bi bi-heart"></i></a></li>
+        <li class="nav-item p-1"><a class="nav-link p-0" href="#account" aria-label="Account"><i class="bi bi-person"></i></a></li>
+        <li class="nav-item p-1"><a class="nav-link p-0" href="#search" aria-label="Search"><i class="bi bi-search"></i></a></li>
+        <li class="nav-item p-1"><a class="nav-link p-0" href="#wishlist" aria-label="Wishlist"><i class="bi bi-heart"></i></a></li>
         <li class="nav-item dropdown p-1">
-          <a class="nav-link p-0 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link p-0 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Cart">
             <i class="bi bi-cart"></i><span class="ms-1">0</span>
           </a>
           <ul class="dropdown-menu dropdown-menu-end">
@@ -49,7 +48,7 @@
     </div>
   </nav>
 
-  <!-- Logo -->
+  <!-- Centered Island Snow logo -->
   <div class="container">
     <div class="row">
       <div class="col">
@@ -58,47 +57,46 @@
       </div>
     </div>
 
-   <!-- Second menu (five items, each with a down arrow) -->
-<div class="row justify-content-center pt-4 text-uppercase fw-semibold" style="letter-spacing:.03em;">
-  <div class="col-auto">
-    <a class="nav-link px-3 d-inline-flex align-items-center" href="#men">
-      Men <i class="bi bi-caret-down-fill ms-1 fs-6 opacity-75 align-middle"></i>
-    </a>
+    <!-- Middle menu (five items, each with down arrow) -->
+    <div class="row justify-content-center pt-4 text-uppercase fw-semibold midmenu" style="letter-spacing:.03em;">
+      <div class="col-auto">
+        <a class="nav-link px-3 d-inline-flex align-items-center" href="#men">
+          Men <i class="bi bi-caret-down-fill ms-1"></i>
+        </a>
+      </div>
+      <div class="col-auto">
+        <a class="nav-link px-3 d-inline-flex align-items-center" href="#women">
+          Women <i class="bi bi-caret-down-fill ms-1"></i>
+        </a>
+      </div>
+      <div class="col-auto">
+        <a class="nav-link px-3 d-inline-flex align-items-center" href="#kids">
+          Kids <i class="bi bi-caret-down-fill ms-1"></i>
+        </a>
+      </div>
+      <div class="col-auto">
+        <a class="nav-link px-3 d-inline-flex align-items-center" href="#brands">
+          Brands <i class="bi bi-caret-down-fill ms-1"></i>
+        </a>
+      </div>
+      <div class="col-auto">
+        <a class="nav-link px-3 d-inline-flex align-items-center" href="#search">
+          Search <i class="bi bi-caret-down-fill ms-1"></i>
+        </a>
+      </div>
+    </div>
   </div>
-  <div class="col-auto">
-    <a class="nav-link px-3 d-inline-flex align-items-center" href="#women">
-      Women <i class="bi bi-caret-down-fill ms-1 fs-6 opacity-75 align-middle"></i>
-    </a>
-  </div>
-  <div class="col-auto">
-    <a class="nav-link px-3 d-inline-flex align-items-center" href="#kids">
-      Kids <i class="bi bi-caret-down-fill ms-1 fs-6 opacity-75 align-middle"></i>
-    </a>
-  </div>
-  <div class="col-auto">
-    <a class="nav-link px-3 d-inline-flex align-items-center" href="#brands">
-      Brands <i class="bi bi-caret-down-fill ms-1 fs-6 opacity-75 align-middle"></i>
-    </a>
-  </div>
-  <div class="col-auto">
-    <a class="nav-link px-3 d-inline-flex align-items-center" href="#search">
-      Search <i class="bi bi-caret-down-fill ms-1 fs-6 opacity-75 align-middle"></i>
-    </a>
-  </div>
-</div>
-<div class="col-auto">
-    <a class="nav-link px-3 d-inline-flex align-items-center" href="#brands">
-      Brands <i class="bi bi-caret-down-fill ms-1 fs-6 opacity-75 align-middle"></i>
-    </a>
-  </div>
-  <div class="col-auto">
-    <a class="nav-link px-3 d-inline-flex align-items-center" href="#search">
-      Search <i class="bi bi-caret-down-fill ms-1 fs-6 opacity-75 align-middle"></i>
-    </a>
-  </div>
-</div>
 
-    <!-- Stubs -->
+  <!-- Full-width hero image -->
+  <div class="container-fluid mt-4">
+    <div class="row justify-content-center">
+      <div class="col-12 p-0">
+        <img src="img/islandsnow-main.jpg" alt="Island Snow model on bridge" class="img-fluid w-100">
+      </div>
+    </div>
+  </div>
+
+  <!-- Page stubs for anchors -->
   <main class="container my-5">
     <section id="men"></section>
     <section id="women"></section>
@@ -111,7 +109,7 @@
     <section id="checkout"></section>
   </main>
 
-  <!-- Footer (INSIDE body) -->
+  <!-- Footer (three columns, dark background) -->
   <footer class="site-footer mt-5">
     <div class="container py-5">
       <div class="row g-4">
@@ -123,7 +121,6 @@
             Island Snow apparel inspired by Hawaiʻi. Local roots, quality threads.
           </p>
         </div>
-
         <!-- Column 2 -->
         <div class="col-12 col-md-4">
           <h6 class="text-uppercase mb-2">Customer Service</h6>
@@ -134,7 +131,6 @@
             <li>Contact Us</li>
           </ul>
         </div>
-
         <!-- Column 3 -->
         <div class="col-12 col-md-4">
           <h6 class="text-uppercase mb-2">Newsletter</h6>

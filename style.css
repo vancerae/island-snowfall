@@ -1,0 +1,19 @@
+/* Footer styles */
+.site-footer {
+  background-color: #292929; /* required */
+  color: #fff;               /* required */
+}
+
+.site-footer a {
+  color: #f8f9fa;
+  text-decoration: none;
+}
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Make the <hr> visible on dark bg */
+.site-footer hr {
+  border-color: rgba(255, 255, 255, 0.25);
+  opacity: 1;
+}
